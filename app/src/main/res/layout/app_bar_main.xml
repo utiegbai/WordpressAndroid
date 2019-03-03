@@ -26,6 +26,7 @@
     <include
         android:layout_width="match_parent"
         android:layout_height="45dp"
+        android:visibility="gone"
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"
         layout="@layout/main_activity_bottombar"/>

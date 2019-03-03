@@ -426,10 +426,10 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_logout) {
-            //go to login activity
-            //Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-            //startActivity(intent);
+        if (id == R.id.action_search) {
+            //go to search activity
+            Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+            startActivity(intent);
             //finish();
         }
 
