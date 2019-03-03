@@ -29,7 +29,6 @@ import com.entpress.entpress.models.Posts;
 import com.entpress.entpress.utility.Util;
 import com.entpress.entpress.utility.api.ApiCall;
 import com.entpress.entpress.utility.api.ApiUrl;
-import com.entpress.entpress.utility.data.JsonParser;
 import com.entpress.entpress.utility.views.ShowAlert;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;

@@ -13,13 +13,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.HttpHeaderParser;
 import com.android.volley.toolbox.StringRequest;
-import com.entpress.entpress.App;
 import com.entpress.entpress.interfaces.VolleyResponse;
-import com.entpress.entpress.models.UserDetails;
 
 import java.io.UnsupportedEncodingException;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by utimac on 11/24/2015.

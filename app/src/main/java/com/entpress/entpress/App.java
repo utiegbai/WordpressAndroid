@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.os.Build;
 
 import com.entpress.entpress.constants.Constants;
-import com.entpress.entpress.db.DatabaseHandler;
 import com.google.android.gms.ads.MobileAds;
 
 
@@ -21,13 +20,11 @@ public class App extends Application {
     public static Context getContext() {
         return context;
     }
-    public static DatabaseHandler localDb;
 
     @Override
     public void onCreate() {
         super.onCreate();
         context = getApplicationContext();
-        localDb = new DatabaseHandler(this);
 
         // initialize the AdMob app
         MobileAds.initialize(this, getString(R.string.admob_app_id));

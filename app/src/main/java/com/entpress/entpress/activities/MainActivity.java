@@ -16,7 +16,6 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -28,7 +27,6 @@ import com.entpress.entpress.App;
 import com.entpress.entpress.R;
 import com.entpress.entpress.interfaces.VolleyResponse;
 import com.entpress.entpress.models.Posts;
-import com.entpress.entpress.models.UserDetails;
 import com.entpress.entpress.utility.api.ApiCall;
 import com.entpress.entpress.utility.api.ApiUrl;
 import com.entpress.entpress.utility.views.ShowAlert;
@@ -58,7 +56,6 @@ public class MainActivity extends AppCompatActivity
     private int tab_position = 0;
     private LinearLayout bottom_holder;
     ProgressBar progress_bar;
-    UserDetails loginUser = App.localDb.getUserData();
     Menu cat_list_item;
     int cat_icon;
     TextView price_txt;
@@ -262,7 +259,7 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.tab_recorder:
                 enableTabItem(R.id.tab_recorder);
-                ShowAlert.Notify(MainActivity.this, "Error", "Hello "+loginUser.getName()+"! We'd recommend you to use our website for posting of Ad. Thank you!", "No", "Ok");
+                //ShowAlert.Notify(MainActivity.this, "Error", "Hello "+loginUser.getName()+"! We'd recommend you to use our website for posting of Ad. Thank you!", "No", "Ok");
                 tab_position=2;
 
                 break;
@@ -430,11 +427,10 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_logout) {
-            App.localDb.clearUserDataTable();
             //go to login activity
-            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-            startActivity(intent);
-            finish();
+            //Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            //startActivity(intent);
+            //finish();
         }
 
         return super.onOptionsItemSelected(item);
