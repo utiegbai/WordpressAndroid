@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="msg_moments_upload_finished"/>
+    <item type="id" name="msg_avatar_upload_finished"/>
+    <item type="id" name="msg_uploading_moments"/>
+    <item type="id" name="create_moment"/>
+    <item type="id" name="edit_moment"/>
+    <item type="id" name="edit_moment_success"/>
+    <item type="id" name="create_comment"/>
+    <item type="id" name="new_comment"/>
+    <item type="id" name="showSetProfileAvatarActivity"/>
+    <item type="id" name="showUpdateEmailActivity"/>
+    <item type="id" name="scrollUpdate"/>
+    <item type="id" name="adapterScroll"/>
+    <item type="id" name="removeLocalListener"/>
+    <item type="id" name="userRebroadcasted"/>
+    <item type="id" name="momentLoveInteraction"/>
+    <item type="id" name="updateMomentForLoveInteraction"/>
+    <item type="id" name="createMomentActivityAdapterPosition"/>
+    <item type="id" name="cancelCurrentUploadAction"/>
+    <item type="id" name="retryCurrentUploadAction"/>
+    <item type="id" name="retryPublishMoment"/>
+    <item type="id" name="cancelPublishMoment"/>
+    <item type="id" name="showSnackBar"/>
+    <item type="id" name="beginCommentsEditDelete"/>
+    <item type="id" name="stopCommentsEditDelete"/>
+    <item type="id" name="deleteCommentActivity"/>
+    <item type="id" name="deleteCommentWebSocket"/>
+</resources>

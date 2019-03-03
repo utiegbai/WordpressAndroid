@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nav_menu_header_bg" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/user_profile_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_gravity="center"
+            android:src="@drawable/man"
+            android:layout_marginTop="-60dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="5dp"
+            android:scaleType="centerCrop"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#fff"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_cover_image"
+            android:background="@color/white"
+            android:paddingBottom="24dp">
+
+
+            <ImageView
+                android:id="@+id/add_friend"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                android:layout_toLeftOf="@+id/drop_down_option_menu"
+                android:src="@drawable/ic_person_add_white" />
+
+            <ImageView
+                android:id="@+id/drop_down_option_menu"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:tint="@color/grey_darker"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_more_vert_black" />
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:text="name"
+                android:textColor="#444"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="5dp"
+            android:id="@+id/linear_recordings"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/my_recordings"
+                android:background="#fff"
+                android:clickable="true"
+                android:layout_marginBottom="60dp"
+                android:padding="10dp"
+                android:text="My Ads" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:id="@+id/no_contents"
+                android:text="No Ads" />
+
+            <ListView
+                android:id="@+id/list_view_tracks"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/profile_layout"
+                android:layout_height="300sp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:focusable="false"
+                android:visibility="gone"
+                android:layout_marginBottom="0dp"/>
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:visibility="visible"
+                android:indeterminateTint="@color/colorPrimaryDark"
+                android:indeterminateTintMode="src_in"
+                android:indeterminate="true"
+                android:layout_gravity="center"
+                android:layout_marginEnd="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

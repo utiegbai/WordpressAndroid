@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:background="@color/white"
+    android:elevation="0sp"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:paddingBottom="0dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@color/white"
+        android:elevation="4sp">
+    <ImageView
+        android:id="@+id/track_icon"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:contentDescription="TODO"
+        android:src="@drawable/entertainment" />
+
+    <TextView
+        android:id="@+id/track_title"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/track_icon"
+        android:maxLines="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:visibility="gone"
+        android:textColor="@color/grey_darker"
+        android:text="Description"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/track_info"
+        android:maxLines="2"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/track_icon"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:text="Example application"
+        android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/price_txt"
+            android:maxLines="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/track_info"
+            android:textColor="@color/light_gray"
+            android:layout_marginStart="5sp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="12dp"
+            android:contentDescription="TODO"
+            android:text="null" />
+
+        <ImageView
+            android:id="@+id/icon_more"
+            android:layout_width="18sp"
+            android:layout_height="18sp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/track_info"
+            android:src="@drawable/ic_more_vert_black" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:id="@+id/searchtoolbar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:collapseIcon="@drawable/ic_arrow_back_black"
+    android:backgroundTint="@color/white"
+    app:titleTextColor="@color/white"
+    android:tint="@color/colorPrimary"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/material_green_600"/>

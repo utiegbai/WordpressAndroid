@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="3dp"
+    app:cardCornerRadius="0dp"
+    android:background="@color/material_grey_900"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/bottom_holder"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <RelativeLayout
+            android:id="@+id/tab_home"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_home_black"
+                android:tint="@color/white"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimaryDark"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab_search"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_search_white"
+                android:tint="@color/white"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimaryDark"/>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/tab_profile"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/contact_image"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_account_circle_white"
+                android:tint="@color/white"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:textSize="18dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="50dp"
+                android:layout_alignStart="@+id/contact_image"
+                android:textColor="@color/white"
+                />
+
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_gravity="bottom"
+                android:background="@color/colorPrimaryDark"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
