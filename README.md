@@ -11,8 +11,8 @@ Next: Download this project and import with your Android Studio, and locate this
 You can change the layout, colors, icons, themes, etc
 
 ### Screenshots below:
-![alt Shot1] (https://github.com/utiegbai/WordpressAndroid/screenshots/1.jpg)
+![alt Shot1] (https://blog.calitunes.com/wp-content/uploads/2019/03/WhatsApp-Image-2019-03-04-at-01.57.54.jpeg)
 
-![alt Shot2] (https://github.com/utiegbai/WordpressAndroid/screenshots/2.jpg)
+![alt Shot2] (https://blog.calitunes.com/wp-content/uploads/2019/03/WhatsApp-Image-2019-03-04-at-01.57.541.jpeg)
 
-![alt Shot3] (https://github.com/utiegbai/WordpressAndroid/screenshots/2.jpg)
+![alt Shot3] (https://blog.calitunes.com/wp-content/uploads/2019/03/WhatsApp-Image-2019-03-04-at-01.57.55.jpeg)
