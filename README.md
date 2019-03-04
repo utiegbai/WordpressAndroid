@@ -11,8 +11,8 @@ Next: Download this project and import with your Android Studio, and locate this
 You can change the layout, colors, icons, themes, etc
 
 ### Screenshots below:
-![alt Shot1] (https://raw.githubusercontent.com/utiegbai/WordpressAndroid/screenshots/1.jpg)
+![alt Shot1] (https://github.com/utiegbai/WordpressAndroid/screenshots/1.jpg)
 
-![alt Shot2] (https://raw.githubusercontent.com/utiegbai/WordpressAndroid/screenshots/2.jpg)
+![alt Shot2] (https://github.com/utiegbai/WordpressAndroid/screenshots/2.jpg)
 
-![alt Shot3] (https://raw.githubusercontent.com/utiegbai/WordpressAndroid/screenshots/2.jpg)
+![alt Shot3] (https://github.com/utiegbai/WordpressAndroid/screenshots/2.jpg)
